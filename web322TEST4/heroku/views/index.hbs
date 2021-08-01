@@ -1,0 +1,31 @@
+<!doctype html>  
+            <html> 
+                <head>  
+                    <title>  View Data  </title> 
+                    <style>
+                        td{
+                            padding: 10 px;
+                        }
+                    </style>
+                </head> 
+                <body>  
+                    <table style="text-align: center; border: solid 1px black">  
+                        <tr >  
+                            <th>  Employee ID  </th>  
+                            <th>  Name  </th>  
+                            <th>  Department Number  </th>  
+                        </tr>
+                        {{#each data}}
+                         <tr>  
+                            <td>  {{empid}}  </td>  
+                            <td>  {{name}}  </td>  
+                            <td>  {{deptnumber}}  </td>  
+                        </tr>
+                        {{else}}
+                        <tr>
+                            <td colspan="3">No Data Available</td>
+                        </tr>
+                        {{/each}}
+                    </table>  
+                </body>  
+            </html>

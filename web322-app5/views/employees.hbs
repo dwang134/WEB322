@@ -1,0 +1,117 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>Employees
+        <a href="/employees/add" class="btn btn-success pull-right">Add New Employee</a>
+        </h2>
+        <hr/>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <th >Employee&nbsp;Num</th>
+                    <th>Full&nbsp;Name</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Manager&nbsp;ID</th>
+                    <th>Status</th>
+                    <th>Department</th>
+                    <th>Hired&nbsp;On</th>
+                </thead>
+                <tbody>
+                 <tr>
+                    <td>471</td>
+                    <td><a href="/employee/471"> </a></td>
+                    <td><a href="mailto:"></a></td>
+                    <td>   </td>
+                    <td><a href="/employees?manager="></a></td>
+                    <td><a href="/employees?status="></a></td>
+                    <td><a href="/employees?department="></a></td>
+                    <td></td>
+                    <td><a href="/employees/delete/471" class="btn btn-danger">remove</a></td>
+                </tr>
+                <tr>
+                    <td>472</td>
+                    <td><a href="/employee/472"> </a></td>
+                    <td><a href="mailto:"></a></td>
+                    <td>   </td>
+                    <td><a href="/employees?manager="></a></td>
+                    <td><a href="/employees?status="></a></td>
+                    <td><a href="/employees?department="></a></td>
+                    <td></td>
+                    <td><a href="/employees/delete/472" class="btn btn-danger">remove</a></td>
+                </tr>
+                <tr>
+                    <td>475</td>
+                    <td><a href="/employee/475"> </a></td>
+                    <td><a href="mailto:"></a></td>
+                    <td>   </td>
+                    <td><a href="/employees?manager="></a></td>
+                    <td><a href="/employees?status="></a></td>
+                    <td><a href="/employees?department="></a></td>
+                    <td></td>
+                    <td><a href="/employees/delete/475" class="btn btn-danger">remove</a></td>
+                </tr>
+                <tr>
+                    <td>476</td>
+                    <td><a href="/employee/476"> </a></td>
+                    <td><a href="mailto:"></a></td>
+                    <td>   </td>
+                    <td><a href="/employees?manager="></a></td>
+                    <td><a href="/employees?status=Full Time">Full Time</a></td>
+                    <td><a href="/employees?department="></a></td>
+                    <td></td>
+                    <td><a href="/employees/delete/476" class="btn btn-danger">remove</a></td>
+                </tr>
+                <tr>
+                    <td>478</td>
+                    <td><a href="/employee/478"> </a></td>
+                    <td><a href="mailto:"></a></td>
+                    <td>   </td>
+                    <td><a href="/employees?manager="></a></td>
+                    <td><a href="/employees?status="></a></td>
+                    <td><a href="/employees?department="></a></td>
+                    <td></td>
+                    <td><a href="/employees/delete/478" class="btn btn-danger">remove</a></td>
+                </tr>
+                <tr>
+                    <td>474</td>
+                    <td><a href="/employee/474">a b</a></td>
+                    <td><a href="mailto:c@email.com">c@email.com</a></td>
+                    <td>23 red st Toronto ON a1a 1a1</td>
+                    <td><a href="/employees?manager=7">7</a></td>
+                    <td><a href="/employees?status=Full Time">Full Time</a></td>
+                    <td><a href="/employees?department="></a></td>
+                    <td>jan 1 2011</td>
+                    <td><a href="/employees/delete/474" class="btn btn-danger">remove</a></td>
+                </tr>
+                <tr>
+                    <td>481</td>
+                    <td><a href="/employee/481">Hojun Hwang</a></td>
+                    <td><a href="mailto:hojun21122@gmail.com">hojun21122@gmail.com</a></td>
+                    <td> Toronto ON M5G2R3</td>
+                    <td><a href="/employees?manager="></a></td>
+                    <td><a href="/employees?status="></a></td>
+                    <td><a href="/employees?department="></a></td>
+                    <td></td>
+                    <td><a href="/employees/delete/481" class="btn btn-danger">remove</a></td>
+                </tr>
+                <tr>
+                    <td>514</td>
+                    <td><a href="/employee/514">Harry Potter</a></td>
+                    <td><a href="mailto:"></a></td>
+                    <td>4 Privat   </td>
+                    <td><a href="/employees?manager="></a></td>
+                    <td><a href="/employees?status="></a></td>
+                    <td><a href="/employees?department="></a></td>
+                    <td></td>
+                    <td><a href="/employees/delete/514" class="btn btn-danger">remove</a></td>
+                </tr>
+                </tbody>
+            </table>
+         </div>
+    </div>
+    {{#unless employees}}
+        <div class="col-md-12 text-center">
+            <strong>{{message}}</strong>
+        </div>
+    {{/unless}}
+</div>

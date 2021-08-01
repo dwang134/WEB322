@@ -1,0 +1,8 @@
+{
+   "name": "node-pg",
+   "author": "Javascript Employee",
+   "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^6.4.2"
+   }
+}
